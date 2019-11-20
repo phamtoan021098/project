@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Categories</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/styles-2.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css" />
+
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Daxuo Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+            </ul>
+            <span class="navbar-text" style="display:flex">
+                <p>Hi Toan</p>
+                <a class="nav-link" href="#">Logout</a>
+            </span>
+        </div>
+    </nav>
+    <section class="categories">
+        <div class="category-list">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="add-edit">
+                        <h5>New Product</h5>
+                        <hr>
+                        <form action="POST">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                    placeholder="Product:">
+                            </div>
+                            <div class="form-group">
+                                <textarea type="input" name="" id="" cols="30" rows="10" placeholder="Description:"></textarea>
+                            </div>
+
+                            <a name="" id="add" class="btn" href="#" role="button">+<a>
+                                    <a name="" id="" class="btn btn-warning" href="#" role="button">X</a>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <h5>Products</h5>
+                    <hr>
+                    <a name="" id="btn" class="btn" href="#" role="button">Add new a catogory</a>
+                    <table class="table" id="example">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th>Category</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vans</td>
+                                <td>
+                                    <a id="edit" href="#">Edit</a>
+                                </td>
+                                <td>
+                                    <a id="delete" href="#">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Converse</td>
+                                <td>
+                                    <a id="edit" href="#">Edit</a>
+                                </td>
+                                <td>
+                                    <a id="delete" href="#">Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Palladium</td>
+                                <td>
+                                    <a id="edit" href="#">Edit</a>
+                                </td>
+                                <td>
+                                    <a id="delete" href="#">Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>z
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

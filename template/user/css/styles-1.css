@@ -1,0 +1,20 @@
+.login-form ,.register-form{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+.login ,.register{
+    margin: 5%;
+}
+h5{
+    color:#57C5A0;
+}
+.register-form p{
+    text-align: left;
+    color: gray;
+}
+.register-form label{
+   margin-right: 15%; 
+}
+.form-check{
+    padding-bottom: 2%;
+}
